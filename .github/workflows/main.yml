@@ -28,7 +28,7 @@ jobs:
       uses: docker/login-action@v3
       with:
         username: ${{ secrets.mohammedsafik }}
-        password: ${{ secrets.Safik@2402 }}
+        password: ${{ secrets.dckr_pat_HzUWWAKGu7SVvKD0XL3HalA0yzU }}
 
     - name: Build Docker image
       run: docker build -t mohammedsafik/nodejs-ci-cd .
